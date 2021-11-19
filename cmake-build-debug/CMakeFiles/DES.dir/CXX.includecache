@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/yuangpeng/CLionProjects/DES/des.h
+iostream
+-
+
+/Users/yuangpeng/CLionProjects/DES/main.cpp
+iostream
+-
+des.h
+/Users/yuangpeng/CLionProjects/DES/des.h
+
